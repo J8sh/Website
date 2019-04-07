@@ -13,26 +13,30 @@
     <!-- Header -->
     <h1>Header</h1>
 
-    <!-- four paragraphs w/ bold and italics -->
-    <div>
-        <p>Lorem ipsum dolor sit amet <strong>consectetur</strong> adipisicing elit. Facilis aspernatur aliquam, odio maiores tempore iusto quasi assumenda hic suscipit quas expedita eligendi, <em>quidem modi quam</em>. Facilis rem dolore veniam deleniti?</p>
-    </div>
-    <div>
-        <p>Lorem ipsum dolor <b>sit amet</b>, consectetur adipisicing elit. <i>Nesciunt ea dolorum</i> accusamus fuga iure optio eveniet, perspiciatis quis incidunt cumque?</p>
-    </div>
-    <div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore velit repellat <em>officia</em> voluptates ipsum tenetur assumenda minus <b>accusantium</b> aliquam veniam, cupiditate fugiat nostrum recusandae perferendis pariatur magnam suscipit dolor autem?</p>
-    </div>
-    <div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem eligendi <i>dolore maiores</i> ducimus sit culpa? Quo amet delectus veniam animi velit ut aliquid inventore, tempora facere maiores, quibusdam quis sunt quae incidunt odit maxime omnis ad totam! Debitis velit <strong>nobis</strong> necessitatibus consequuntur quia sunt similique.</p>
-    </div>
     <!-- the link to about.html page -->
     <a href="about.html">About</a>
+    <hr>
+    <!-- four paragraphs w/ bold and italics -->
+    <div class="grid-container">
+        <div class="grid-item box1">
+            <p>Lorem ipsum dolor sit amet <strong>consectetur</strong> adipisicing elit. Facilis aspernatur aliquam, odio maiores tempore iusto quasi assumenda hic suscipit quas expedita eligendi, <em>quidem modi quam</em>. Facilis rem dolore veniam deleniti?</p>
+        </div>
+        <div class="grid-item">
+            <p>Lorem ipsum dolor <b>sit amet</b>, consectetur adipisicing elit. <i>Nesciunt ea dolorum</i> accusamus fuga iure optio eveniet, perspiciatis quis incidunt cumque?</p>
+        </div>
+        <div class="grid-item">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore velit repellat <em>officia</em> voluptates ipsum tenetur assumenda minus <b>accusantium</b> aliquam veniam, cupiditate fugiat nostrum recusandae perferendis pariatur magnam suscipit dolor autem?</p>
+        </div>
+        <div class="grid-item box4">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem eligendi <i>dolore maiores</i> ducimus sit culpa? Quo amet delectus veniam animi velit ut aliquid inventore, tempora facere maiores, quibusdam quis sunt quae incidunt odit maxime omnis ad totam! Debitis velit <strong>nobis</strong> necessitatibus consequuntur quia sunt similique.</p>
+        </div>
+    </div>
 
     <!-- JavaScript Tic-Tac-Toe Game -->
-    <div>
+    <h2 class="ticTitle">Tic Tac Toe!</h2>
+    <div id="ticTac">
         <div id="turn">x's Turn</div>
-        <table>
+        <table id="ticTackToeTable">
             <tbody>
                 <tr>
                 <td></td>
@@ -50,10 +54,13 @@
                 <td></td>
                 </tr>
             </tbody>
-        </table>
-                  
+        </table>     
     </div>
 
+    <!-- footer -->
+    <div id="footer">
+        <p>&copy; Joshua Garcia 2019</p>
+    </div>
     <!-- JavaScript files -->
     <script src="http://code.jquery.com/jquery-3.1.1.js"></script>
     <script src="script.js" type="text/javascript"></script>
